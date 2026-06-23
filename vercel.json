@@ -1,12 +1,8 @@
 {
   "buildCommand": "npm run build",
-  "installCommand": "npm install --force",
-  "framework": "vite",
   "outputDirectory": "dist/client",
+  "installCommand": "npm install --force",
   "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/"
-    }
+    { "source": "/(.*)", "destination": "/" }
   ]
 }
