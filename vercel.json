@@ -1,8 +1,5 @@
 {
   "buildCommand": "npm run build",
-  "outputDirectory": "dist/client",
-  "installCommand": "npm install --force",
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/" }
-  ]
+  "outputDirectory": "dist",
+  "installCommand": "npm install --force"
 }
