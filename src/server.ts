@@ -1,7 +1,7 @@
-export default {
+﻿export default {
   async fetch(request: Request) {
     const { default: handler } = await import(
-      "@tanstack/react-start/server-entry"
+      ""@tanstack/react-start/server-entry""
     );
     return handler.fetch(request);
   },
