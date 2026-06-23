@@ -6,6 +6,8 @@ export const router = createRouter({
   context: {
     queryClient: undefined as any,
   },
+  defaultPreload: "intent",
+  defaultPreloadStaleTime: 0,
 });
 
 export function getRouter() {
